@@ -316,14 +316,14 @@ $("#telegram")
     $("#link-text").html("你懂的 ~");
   })
   .mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("入口");
   });
 $("#Twitter")
   .mouseover(function () {
     $("#link-text").html("你懂的 ~");
   })
   .mouseout(function () {
-    $("#link-text").html("通过这里联系我");
+    $("#link-text").html("入口");
   });
 
 //自动变灰
@@ -366,7 +366,7 @@ $("#switchmore").on("click", function () {
   } else {
     $("#container").attr("class", "container");
     $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个不正经的Up");
+    $("#change1").html("一个普通男大");
   }
 });
 
@@ -415,7 +415,7 @@ window.addEventListener("load", function () {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
       $("#change").html("Hello&nbsp;World&nbsp;!");
-      $("#change1").html("一个不正经的Up");
+      $("#change1").html("一个普通男大");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");
