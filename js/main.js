@@ -318,6 +318,13 @@ $("#telegram")
   .mouseout(function () {
     $("#link-text").html("通过这里联系我");
   });
+$("#Twitter")
+  .mouseover(function () {
+    $("#link-text").html("你懂的 ~");
+  })
+  .mouseout(function () {
+    $("#link-text").html("通过这里联系我");
+  });
 
 //自动变灰
 let myDate = new Date();
